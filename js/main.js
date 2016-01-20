@@ -30,7 +30,7 @@ var level3 = [
 ];
 
 var quiz = [level1, level2, level3];
-var requiredPoints = [4, 4, 4];
+var requiredPoints = [4, 4, 3];
 
 var points;
 var level;
@@ -114,7 +114,6 @@ function createAnswer(answer) {
 }
 
 // Print message: finished level, go to next level
-
 function printNextLevel() {
   var html;
   html = "<h1 class='text-center'>Font Game</h1>";

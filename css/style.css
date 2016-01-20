@@ -56,14 +56,6 @@ p {
   width: 60%;
 }
 
-/*#choice1 {
-  background-image: url(../img/gillsans.png);
-}*/
-
-/*#choice2 {
-  background-image: url(../img/caslon.png);
-}*/
-
 img {
   margin-left:-10px;
 }
@@ -83,7 +75,7 @@ button:hover {
 }
 
 
-#choice1, #choice2, #choice3 {
+#choice1, #choice2 {
   width: 306px;
   height: 110px;
   background-color: #fff;
@@ -94,10 +86,9 @@ button:hover {
 }
 
 
-#choice1:hover, #choice2:hover, #choice3:hover {
+#choice1:hover, #choice2:hover {
   background-color: #a6c3dc;
 }
-
 
 .points {
   margin-top: 10%;
